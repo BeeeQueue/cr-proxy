@@ -1,0 +1,28 @@
+{
+  "name": "cr-proxy",
+  "version": "0.0.0",
+  "description": "A serverless function for creating CR sessions from another country",
+  "main": "index.js",
+  "author": "BeeeQeuue",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "^12.9"
+  },
+  "devDependencies": {
+    "@types/prettier": "2.0.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.2",
+    "prettier": "2.0.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { createSession } from "../src/crunchyroll"
 import { badRequest } from "@hapi/boom"
 
 type OK = {
+  sessionId: string
   token: string
   country: string
   expiresAt: string
@@ -44,6 +45,7 @@ export default async (req: NowRequest, res: NowResponse) => {
   }
 
   const response: OK = {
+    sessionId: result.data.session_id,
     token: result.data.auth,
     country: result.data.country_code,
     expiresAt: result.data.expires,

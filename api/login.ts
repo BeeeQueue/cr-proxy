@@ -5,6 +5,7 @@ import { badRequest } from "@hapi/boom"
 
 type OK = {
   token: string
+  country: string
   expiresAt: string
   expiresInMs: number
   user: null | {
@@ -44,6 +45,7 @@ export default async (req: NowRequest, res: NowResponse) => {
 
   const response: OK = {
     token: result.data.auth,
+    country: result.data.country_code,
     expiresAt: result.data.expires,
     expiresInMs: new Date(result.data.expires).getTime() - Date.now(),
     user:

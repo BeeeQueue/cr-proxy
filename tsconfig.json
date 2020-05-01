@@ -16,12 +16,8 @@
     "sourceMap": true,
     "types": ["node"],
     "skipLibCheck": true,
-    "lib": [
-      "es2019",
-      "es2020",
-      "esnext"
-    ]
+    "lib": ["es2019", "es2020", "esnext"]
   },
-  "include": ["src/**/*.ts", "index.d.ts"],
+  "include": ["src/**/*.ts", "api/**/*.ts", "index.d.ts"],
   "exclude": ["node_modules"]
 }

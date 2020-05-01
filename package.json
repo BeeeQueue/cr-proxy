@@ -10,13 +10,14 @@
     "node": "^12.9"
   },
   "devDependencies": {
+    "@types/node": "12.12.6",
     "@types/prettier": "2.0.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.2",
     "prettier": "2.0.5"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json}": [
+    "*.{js,ts,json,yml}": [
       "prettier --write"
     ]
   },
@@ -24,5 +25,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@now/node": "1.5.1"
   }
 }

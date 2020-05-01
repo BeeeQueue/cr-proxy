@@ -40,6 +40,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@now/node@npm:1.5.1":
+  version: 1.5.1
+  resolution: "@now/node@npm:1.5.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 3/94afbad4029ef7267904bf21fe14713d3788d53d40a62a3f7cd1b5084b32b9b81f0deee3027b0df21a6c2d7adc246caa73a461077caf0d707d28873f58aed5a7
+  languageName: node
+  linkType: hard
+
 "@samverschueren/stream-to-observable@npm:^0.3.0":
   version: 0.3.0
   resolution: "@samverschueren/stream-to-observable@npm:0.3.0"
@@ -53,6 +62,13 @@ __metadata:
   version: 1.1.1
   resolution: "@types/color-name@npm:1.1.1"
   checksum: 3/8311db94a9c4ecd247763b81e783ee49d87678b4ce6a7ee502e2bd5cea242b7357804a04855db009f713174bc654cc0c01c7303d40d757e5d710f5ac0368500f
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*, @types/node@npm:12.12.6":
+  version: 12.12.6
+  resolution: "@types/node@npm:12.12.6"
+  checksum: 3/c33c3822c3c80b1156cb4790cee16ef6855b2f93898967d21063c4c84a0ecf69a6d3d89a21fccea345ca2c53ab7b86672c9879995452d77327d313406cdb3352
   languageName: node
   linkType: hard
 
@@ -286,6 +302,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cr-proxy@workspace:."
   dependencies:
+    "@now/node": 1.5.1
+    "@types/node": 12.12.6
     "@types/prettier": 2.0.0
     husky: 4.2.5
     lint-staged: 10.2.2

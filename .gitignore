@@ -1,5 +1,6 @@
 ## Project
 .idea
+.now
 .env
 !.gitkeep
 
@@ -59,9 +60,3 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-#Electron-builder output
-/dist_electron
-
-#Graphql generated schema
-packages/ui/schema.graphql

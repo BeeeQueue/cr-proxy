@@ -1,3 +1,16 @@
 {
-  "regions": ["cle1"]
+  "regions": ["cle1"],
+  "routes": [
+    {
+      "src": "/api/(login|passthrough)",
+      "dest": "/api/$1.ts"
+    },
+    {
+      "src": "/.*",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/BeeeQueue/cr-proxy"
+      }
+    }
+  ]
 }

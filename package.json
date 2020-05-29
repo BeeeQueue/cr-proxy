@@ -14,7 +14,7 @@
     "@types/node-fetch": "2.5.7",
     "@types/prettier": "2.0.1",
     "husky": "4.2.5",
-    "lint-staged": "10.2.2",
+    "lint-staged": "10.2.7",
     "prettier": "2.0.5"
   },
   "lint-staged": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@hapi/boom": "9.1.0",
-    "@now/node": "1.5.1",
+    "@vercel/node": "1.6.1",
     "node-fetch": "2.6.0"
   }
 }

@@ -10,7 +10,7 @@
     "node": "^12.9"
   },
   "devDependencies": {
-    "@types/node": "12.12.6",
+    "@types/node": "14.0.10",
     "@types/node-fetch": "2.5.7",
     "@types/prettier": "2.0.1",
     "husky": "4.2.5",

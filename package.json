@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/node": "12.12.6",
     "@types/node-fetch": "2.5.7",
-    "@types/prettier": "2.0.2",
+    "@types/prettier": "2.1.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.13",
     "prettier": "2.1.1"

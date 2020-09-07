@@ -30,6 +30,6 @@
   "dependencies": {
     "@hapi/boom": "9.1.0",
     "@vercel/node": "1.8.1",
-    "node-fetch": "2.6.0"
+    "node-fetch": "2.6.1"
   }
 }
